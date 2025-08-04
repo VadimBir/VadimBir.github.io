@@ -5,12 +5,83 @@ permalink: /projects/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<div class="projects-container">
 
-<p style="text-decoration:underline;"><a href="/projects.html">TBA Projects!</a></p>
+<div class="project">
+<h3>KV Cache Eviction Policy for Large Language Models</h3>
+<p><strong>Technologies:</strong> Python, vLLM Framework, POS Tagging, Memory Optimization</p>
+<p>Engineered a novel approach to KV cache eviction policy using POS tagging to determine token relevance, effectively optimizing memory footprint and performance improvement of LLMs. The strategy ensures performance improvement and resource management within a vLLM framework via a custom BlockCombiner class prioritizing essential tokens for model accuracy.</p>
+</div>
 
-{% endif %}
+<div class="project">
+<h3>Cryptocurrency Lottery Token</h3>
+<p><strong>Technologies:</strong> Solidity, Ethereum, Smart Contracts, React, Web3, Moralis, OpenZeppelin, Metamask</p>
+<p>Developed a blockchain-based lottery token using Smart Contract via Solidity on Ethereum, allowing users to gamble via a Metamask-integrated website. The token ensures fair win probabilities correlated with equitable rewards, employing robust functionality through modern blockchain frameworks.</p>
+</div>
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<div class="project">
+<h3>Password Manager (Django)</h3>
+<p><strong>Technologies:</strong> Django, Python, Web Framework, Authentication, Database Security</p>
+<p>A working password manager using Django web framework. This website allows users to register, login and logout. The web system enables users to add password name tags, passwords, and descriptions. Passwords are visible only to the author, ensuring secure personal data management.</p>
+</div>
+
+<div class="project">
+<h3>3-Dimensional Connect 4 Game</h3>
+<p><strong>Technologies:</strong> Unity, C#, 3D Game Development, Custom Scripts</p>
+<p>Designed and developed a 3D Connect 4 game in Unity with a three-axis board. Created custom scripts in C# that handle all calculations including win/lose condition checks, free-cam script, border limits, and teleportation functionality.</p>
+</div>
+
+<div class="project">
+<h3>Battleship Game with Design Patterns</h3>
+<p><strong>Technologies:</strong> Java, Design Patterns, JUnit, Object-Oriented Programming</p>
+<p>Battleship game in Java implementing four design patterns: Decorator Pattern, Factory Pattern, Command Pattern, and State Pattern. Features include game saving mechanics, resume functionality after game closure, and extensible addon architecture. Includes comprehensive JUnit tests for reliability.</p>
+</div>
+
+<div class="project">
+<h3>Password Manager (Java)</h3>
+<p><strong>Technologies:</strong> Java, Object-Oriented Design, Data Management</p>
+<p>Password Manager written in Java using object-oriented design principles. Allows users to create passwords with tags, perform partial searches for saved passwords via name tags, and delete passwords using name tag identification.</p>
+</div>
+
+<div class="project">
+<h3>GoLang Random Mosaic</h3>
+<p><strong>Technologies:</strong> Go, HTML, CSS, Web Development, Dynamic UI</p>
+<p>A Go language hosted mosaic webpage utilizing HTML and CSS that creates a 6 by 6 grid of random shapes with random colors and characters. Features a button for re-randomizing shapes and characters, with dynamic sizing that adapts to window resizing.</p>
+</div>
+
+<div class="project">
+<h3>Tic Tac Toe Game</h3>
+<p><strong>Technologies:</strong> C++, Console Applications, Real-time Input</p>
+<p>Console-based Tic Tac Toe game in C++ featuring a fully functioning menu system and real-time user input processing. Demonstrates fundamental programming concepts and user interaction design.</p>
+</div>
+
+</div>
+
+<style>
+.projects-container {
+  max-width: 100%;
+}
+
+.project {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 1.2rem;
+}
+
+.project p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.project p strong {
+  color: #34495e;
+}
+</style>

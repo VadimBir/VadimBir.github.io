@@ -11,35 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D in Computer Science**, Illinois Institute of Technology, Chicago, IL (September 2023 – Present)
+  * GPA: 4.0
+* **M.S. in Computer Science**, Lewis University, Romeoville, IL (May 2022)
+  * GPA: 3.76
+  * Concentration: Software Engineering
+* **B.S. in Computer Science**, Lakeland University, Plymouth, WI (May 2020)
+  * GPA: 3.8
 
-Work experience
+Professional Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Computer Science Instructor | Academic Graduate Assistant** (September 2021 – Present)
+  * Department of Engineering, Computing and Mathematical Sciences, Lewis University, Romeoville, IL
+  * Teaching undergraduate Computer Science courses including Software Systems Capstone Project, Computer Infrastructure Capstone Project, Applied Programming Languages, Algorithms and Data Structures, Programming Fundamentals, Introduction to Computer Science
+  * Design and deliver course content including syllabi, assignments, lab exercises, quizzes, and lectures
+  * Assess and grade student work, provide personalized project guidance and academic mentoring
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Software Engineer Internship** (June 2021 – October 2021)
+  * Cybridge Group, Inc., Tokyo, Japan
+  * Developed web and mobile applications using Laravel PHP framework for Android and iOS
+  * Enhanced and integrated new features into existing web systems, including debugging and unit testing with Selenium
+  * Contributed to pre-market software projects and authored comprehensive documentation
+  * Collaborated with clients to refine system requirements and participated in team meetings
 
 Publications
 ======
@@ -47,18 +40,22 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Technology Skills
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+* **Operating Systems & Virtualizations**
+  * Windows, MacOS X, Linux, WSL, VPS, NAS, iOS, Android, VMWare, VirtualBox, Vagrant 
+
+* **Programming Languages**
+  * C++, C#, Java, Python, Go, COBOL, MySQL, Visual Basic, Pascal
+
+* **Web & Blockchain Technologies**
+  * HTML5, CSS, React, JavaScript, Django, Laravel, PHP, Solidity, OpenZeppelin, Web3, Moralis, Python-Selenium, Java-Selenium
+
+* **Tools & Systems**
+  * ChampSim, Wireshark, Nmap, Metasploit, SQL Server, Google Apps Script, FileZilla, Git
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

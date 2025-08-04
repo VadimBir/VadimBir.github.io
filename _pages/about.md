@@ -24,7 +24,11 @@ classes: wide
 </div>
 
 <p style="margin-top:0;line-height:1.6">
-Vadim Biryukov is a PhD candidate in the Department of Computer Science at the Illinois Institute of Technology and a member of the Gnosis Research Center. His research specializes in system memory architecture, memory hierarchy optimization, and developing hardware prefetchers for computing systems. He holds an M.S. in Computer Science from Lewis University and a B.S. in Computer Science from Lakeland University.
+Vadim Biryukov is a PhD candidate in the Department of Computer Science at the Illinois Institute of Technology (GPA: 4.0) and a member of the Gnosis Research Center. His research specializes in system memory architecture, memory hierarchy optimization, and developing hardware prefetchers for computing systems. He holds an M.S. in Computer Science from Lewis University (GPA: 3.76) with concentration in Software Engineering, and a B.S. in Computer Science from Lakeland University (GPA: 3.8).
+</p>
+
+<p style="line-height:1.6">
+Currently serving as a Computer Science Instructor at Lewis University, he teaches undergraduate courses including Software Systems Capstone Project, Computer Infrastructure Capstone Project, Applied Programming Languages, Algorithms and Data Structures, Programming Fundamentals, and Introduction to Computer Science. Previously, he completed a Software Engineer Internship at Cybridge Group, Inc. in Tokyo, Japan, where he developed web and mobile applications using Laravel PHP framework, enhanced existing systems, and contributed to pre-market software development.
 </p>
 </div>
 
@@ -36,9 +40,20 @@ Vadim Biryukov is a PhD candidate in the Department of Computer Science at the I
 ## Research Interests
 
 * System memory architecture
-* Memory hierarchy optimization
+* Memory hierarchy optimization  
 * Hardware prefetchers
 * Computing systems
+* Efficient KV cache eviction policies for Large Language Models
+
+## Technology Skills
+
+**Programming Languages:** C++, C#, Java, Python, Go, COBOL, MySQL, Visual Basic, Pascal
+
+**Web & Blockchain Technologies:** HTML5, CSS, React, JavaScript, Django, Laravel, PHP, Solidity, OpenZeppelin, Web3, Moralis, Python-Selenium, Java-Selenium
+
+**Operating Systems & Virtualization:** Windows, MacOS X, Linux, WSL, VPS, NAS, iOS, Android, VMWare, VirtualBox, Vagrant
+
+**Tools & Systems:** ChampSim, Wireshark, Nmap, Metasploit, SQL Server, Google Apps Script, FileZilla, Git
 
 ## Publications
 

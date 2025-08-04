@@ -37,7 +37,3 @@ location: "Romeoville, Illinois, United States"
   * Collaborate with faculty to enhance curriculum and incorporate industry best practices
   * Update course materials to reflect current technologies and methodologies
   * Integrate hands-on programming projects that prepare students for professional software development
-
-## Teaching Philosophy
-
-Emphasis on practical application of computer science concepts through hands-on projects, collaborative learning, and real-world problem-solving. Focus on developing both technical skills and critical thinking abilities essential for success in the technology industry.
