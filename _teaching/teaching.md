@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate courses"
 permalink: /teaching/lewis-university-instructor
 venue: "Lewis University, Department of Engineering, Computing and Mathematical Sciences"
-date: 2021-09-01
+date: 2022-08-01
 location: "Romeoville, Illinois, United States"
 ---
 
