@@ -28,7 +28,7 @@ Vadim Biryukov is a PhD candidate in the Department of Computer Science at the I
 </p>
 
 <p style="line-height:1.6">
-Currently serving as a Computer Science Instructor at Lewis University, he teaches undergraduate courses including Software Systems Capstone Project, Computer Infrastructure Capstone Project, Applied Programming Languages, Algorithms and Data Structures, Programming Fundamentals, and Introduction to Computer Science. Previously, he completed a Software Engineer Internship at Cybridge Group, Inc. in Tokyo, Japan, where he developed web and mobile applications using Laravel PHP framework, enhanced existing systems, and contributed to pre-market software development.
+Currently serving as Computer Science Instructor at Lewis University, teaching undergraduate courses: Operating Systems, Computer Organization, Database Systems, Algorithms and Data Structures, Software Systems Capstone, Computer Infrastructure Capstone, Applied Programming Languages, Programming Fundamentals, and Introduction to Computer Science. Previously completed a Software Engineer Internship at Cybridge Group, Inc. (Tokyo, Japan) developing web and mobile applications on Laravel PHP framework.
 </p>
 </div>
 
