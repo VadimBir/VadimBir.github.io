@@ -14,13 +14,15 @@ location: "Romeoville, Illinois, United States"
 
 ## Courses Taught
 
-* **Software Systems Capstone Project** - Senior-level software engineering project course
-* **Computer Infrastructure Capstone Project** - Infrastructure and systems integration capstone
-* **Applied Programming Languages** - Multi-paradigm programming language concepts and implementation
-* **Algorithms and Data Structures** - Core computer science algorithms and data structure design
-* **Programming Fundamentals** - Introduction to programming concepts and problem-solving
-* **Introduction to Computer Science** - Foundational computer science principles and methodology
-
+* **Operating Systems** – Concepts, design, and implementation of modern operating systems (undergraduate and graduate-level).
+* **Software Systems Capstone Project** – Senior-level software engineering project course.
+* **Computer Infrastructure Capstone** – Infrastructure development and integration into senior-level capstone.
+* **Applied Programming Languages** – Multi-paradigm programming language concepts and implementation.
+* **Database Systems** – Design, implementation, and management of database systems.
+* **Algorithms and Data Structures** – Core computer science algorithms and data structure design.
+* **Computer Organization** – Low-level computer architecture and assembly-level programming.
+* **Programming Fundamentals** – Introduction to programming concepts and problem-solving.
+* **Introduction to Computer Science** – Foundational computer science principles and methodology.
 ## Responsibilities
 
 * **Course Design & Delivery**
