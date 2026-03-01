@@ -33,7 +33,7 @@ I am a <b>Computer Science Instructor</b> at <b>Lewis Univeristy</b> where I wor
 <img src="/images/biryukov.jpg" alt="Vadim Biryukov" style="border-radius:16px;width:200px;height:auto">
 </div>
 </div> -->
-<div style="margin-bottom:2rem">
+<div style="margin-bottom:2rem"> 
 
 <div style="float:right;margin:0 0 1rem 2rem;">
 <img src="/images/biryukov.jpg" alt="Vadim Biryukov" style="border-radius:16px;width:200px;height:auto">
