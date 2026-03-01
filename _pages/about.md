@@ -67,26 +67,6 @@ I am a <b>Computer Science Instructor</b> at Department of Engineering, Computin
 * Large Language Models efficiency 
 
 
-## Technology Skills
-*Core expertise in systems programming and computer architecture;
-additional experience across machine learning, blockchain, and web domains.*
-
-* **Programming:** C++, Python, Java, MASM, Go, COBOL
-* **Research Tools:** ChampSim, Intel Pin Tool, GDB, Perf, Valgrind, Overleaf
-* **Systems & Architecture:** Linux, WSL, VPS, NAS, VMware, VirtualBox, Vagrant, Docker
-* **Compilers & Build:** Clang, GCC, Make, Bash
-* **ML & Frameworks:** TensorFlow, PyTorch, vLLM
-* **Web & Application Development:** HTML5, CSS, JavaScript, Django, React, Laravel, PHP
-* **Blockchain:** Solidity, Web3.js, OpenZeppelin, MetaMask, Moralis
-* **Cloud & Databases:** Azure, Chameleon Cloud, Digital Ocean, MySQL, SQL Server, Firebase
-* **Security & Networking:** WireGuard VPN, Wireshark, Nmap, Metasploit
-* **IDEs & Tooling:** CLion, PyCharm, IntelliJ IDEA, VS Code, Git, Selenium (Python, Java)
-<!-- **Web & Blockchain Technologies:** HTML5, CSS, React, JavaScript, Django, Laravel, PHP, Solidity, OpenZeppelin, Web3, Moralis, Python-Selenium, Java-Selenium -->
-
-
-<!-- **Operating Systems & Virtualization:** Windows, MacOS X, Linux, WSL, VPS, NAS, iOS, Android, VMWare, VirtualBox, Vagrant -->
-
-
 # Publications
 
 {% if site.publications.size > 0 %}
@@ -116,10 +96,3 @@ additional experience across machine learning, blockchain, and web domains.*
 - **AY 2022–23** — Web Master, **EIT Conference**
 - **AY 2022–23** — Member, **CUAAC** (College Undergraduate Academic Affairs Committee)
 - **Summer 2022** — Technical Coordinator, **STARTALK** — U.S. Dept. of Education funded language program
-<!-- {% if site.posts.size > 0 %}
-{% for post in site.posts limit:5 %}
-* **{{ post.date | date: "%B %Y" }}**: {{ post.title }}
-{% endfor %}
-{% else %}
-<p>No recent news updates.</p>
-{% endif %} -->
