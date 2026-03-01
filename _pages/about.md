@@ -23,14 +23,14 @@ classes: wide
 </a>
 </div>
 
-<p style="margin-top:0;line-height:1.6">
 <h2> About Me</h2>
+<p style="margin-top:0;line-height:1.6">
 I am a <b>Computer Science Instructor</b> at <b>Lewis Univeristy</b> where I work at Department of Engineering, Computing and Mathematical Sciences (ECaMS). I am a PhD candidate in the Department of Computer Science at the Illinois Institute of Technology where I work closely with <href src=http://www.cs.iit.edu/~scs/sun/biography.html>Prof. Xian-He Sun</href> at the <href src=https://grc.iit.edu/>Gnosis Research Center</href>. My research is in <b>system memory architecture</b>, <b>memory hierarchy optimization</b> for computer systems.
 </p>
 
-<p style="line-height:1.6">
+<!-- <p style="line-height:1.6">
 Currently serving as Computer Science Instructor at Lewis University, teaching undergraduate courses: Operating Systems, Computer Organization, Database Systems, Algorithms and Data Structures, Software Systems Capstone, Computer Infrastructure Capstone, Applied Programming Languages, Programming Fundamentals, and Introduction to Computer Science. Previously completed a Software Engineer Internship at Cybridge Group, Inc. (Tokyo, Japan) developing web and mobile applications on Laravel PHP framework.
-</p>
+</p> -->
 </div>
 
 <div style="flex-shrink:0">
