@@ -53,7 +53,7 @@ I am a <b>Computer Science Instructor</b> at <b>Lewis Univeristy</b> where I wor
 
 <h1 style="margin-top:0;">About Me</h1>
 <p style="margin-top:0;line-height:1.6">
-I am a <b>Computer Science Instructor</b> at <b>Lewis University</b> where I work at Department of Engineering, Computing and Mathematical Sciences (ECaMS). I am a PhD candidate in the Department of Computer Science at the Illinois Institute of Technology where I work closely with <a href="http://www.cs.iit.edu/~scs/sun/biography.html">Prof. Xian-He Sun</a> at the <a href="https://grc.iit.edu/">Gnosis Research Center</a>. My research is in <b>system memory architecture</b>, <b>memory hierarchy optimization</b> for computer systems.
+I am a <b>Computer Science Instructor</b> at Department of Engineering, Computing and Mathematical Sciences (ECaMS) at <b>Lewis University</b>. I am a PhD candidate in the Department of Computer Science at the Illinois Institute of Technology where I work closely with <a href="http://www.cs.iit.edu/~scs/sun/biography.html">Prof. Xian-He Sun</a> at the <a href="https://grc.iit.edu/">Gnosis Research Center</a>. My research is in <b>system memory architecture</b>, <b>memory hierarchy optimization</b> for computer systems.
 </p>
 
 <div style="clear:both;"></div>
