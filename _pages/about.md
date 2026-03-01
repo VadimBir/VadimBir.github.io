@@ -24,7 +24,7 @@ classes: wide
 </div>
 
 <p style="margin-top:0;line-height:1.6">
-Vadim Biryukov is a PhD candidate in the Department of Computer Science at the Illinois Institute of Technology (GPA: 4.0) and a member of the Gnosis Research Center. His research specializes in system memory architecture, memory hierarchy optimization, and developing hardware prefetchers for computing systems. He holds an M.S. in Computer Science from Lewis University (GPA: 3.76) with concentration in Software Engineering, and a B.S. in Computer Science from Lakeland University (GPA: 3.8).
+Currently a <b>Computer Science Instructor</b> at <b>Lewis Univeristy</b> PhD candidate in the Department of Computer Science at the Illinois Institute of Technology (GPA: 3.84) and a member of the Gnosis Research Center. My research specializes in system memory architecture, memory hierarchy optimization, and developing hardware prefetchers for computing systems. Hold M.S. in Computer Science from Lewis University (GPA: 3.76) with concentration in Software Engineering, and a B.S. in Computer Science from Lakeland University (GPA: 3.8).
 </p>
 
 <p style="line-height:1.6">
@@ -47,11 +47,14 @@ Currently serving as Computer Science Instructor at Lewis University, teaching u
 
 ## Technology Skills
 
-**Programming Languages:** C++, C#, Java, Python, Go, COBOL, MySQL, Visual Basic, Pascal
+**Programming Languages:** C++, C#, MASM, Java, Python, MySQL, Go, COBOL 
+**Web Technologies:** HTML5, CSS, React, JavaScript, Django, Laravel, PHP
+<!-- **Web & Blockchain Technologies:** HTML5, CSS, React, JavaScript, Django, Laravel, PHP, Solidity, OpenZeppelin, Web3, Moralis, Python-Selenium, Java-Selenium -->
 
-**Web & Blockchain Technologies:** HTML5, CSS, React, JavaScript, Django, Laravel, PHP, Solidity, OpenZeppelin, Web3, Moralis, Python-Selenium, Java-Selenium
+**Operating Systems & Virtualization:** Linux, Windows, macOS, WSL, VPS, VMware, VirtualBox, Vagrant
+<!-- **Operating Systems & Virtualization:** Windows, MacOS X, Linux, WSL, VPS, NAS, iOS, Android, VMWare, VirtualBox, Vagrant -->
 
-**Operating Systems & Virtualization:** Windows, MacOS X, Linux, WSL, VPS, NAS, iOS, Android, VMWare, VirtualBox, Vagrant
+**Cloud & Research Infrastructure:** Azure, Digital Ocean, Chameleon Cloud
 
 **Tools & Systems:** ChampSim, Wireshark, Nmap, Metasploit, SQL Server, Google Apps Script, FileZilla, Git
 
