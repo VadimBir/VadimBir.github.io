@@ -55,32 +55,39 @@ I am a <b>Computer Science Instructor</b> at <b>Lewis Univeristy</b> where I wor
 <p style="margin-top:0;line-height:1.6">
 I am a <b>Computer Science Instructor</b> at Department of Engineering, Computing and Mathematical Sciences (ECaMS) at <b>Lewis University</b>. I am a PhD candidate in the Department of Computer Science at the Illinois Institute of Technology where I work closely with <a href="http://www.cs.iit.edu/~scs/sun/biography.html">Prof. Xian-He Sun</a> at the <a href="https://grc.iit.edu/">Gnosis Research Center</a>. My research is in <b>system memory architecture</b>, <b>memory hierarchy optimization</b> for computer systems.
 </p>
-
 <div style="clear:both;"></div>
-
 </div>
-## Research Interests
+
+# Research Interests
 
 * System memory architecture
 * Memory hierarchy optimization  
 * Hardware prefetchers
 * Computing systems
-* Efficient KV cache eviction policies for Large Language Models
+* Large Language Models efficiency 
+
 
 ## Technology Skills
+*Core expertise in systems programming and computer architecture;
+additional experience across machine learning, blockchain, and web domains.*
 
-**Programming Languages:** C++, C#, MASM, Java, Python, MySQL, Go, COBOL 
-**Web Technologies:** HTML5, CSS, React, JavaScript, Django, Laravel, PHP
+* **Programming:** C++, Python, Java, MASM, Go, COBOL
+* **Research Tools:** ChampSim, Intel Pin Tool, GDB, Perf, Valgrind, Overleaf
+* **Systems & Architecture:** Linux, WSL, VPS, NAS, VMware, VirtualBox, Vagrant, Docker
+* **Compilers & Build:** Clang, GCC, Make, Bash
+* **ML & Frameworks:** TensorFlow, PyTorch, vLLM
+* **Web & Application Development:** HTML5, CSS, JavaScript, Django, React, Laravel, PHP
+* **Blockchain:** Solidity, Web3.js, OpenZeppelin, MetaMask, Moralis
+* **Cloud & Databases:** Azure, Chameleon Cloud, Digital Ocean, MySQL, SQL Server, Firebase
+* **Security & Networking:** WireGuard VPN, Wireshark, Nmap, Metasploit
+* **IDEs & Tooling:** CLion, PyCharm, IntelliJ IDEA, VS Code, Git, Selenium (Python, Java)
 <!-- **Web & Blockchain Technologies:** HTML5, CSS, React, JavaScript, Django, Laravel, PHP, Solidity, OpenZeppelin, Web3, Moralis, Python-Selenium, Java-Selenium -->
 
-**Operating Systems & Virtualization:** Linux, Windows, macOS, WSL, VPS, VMware, VirtualBox, Vagrant
+
 <!-- **Operating Systems & Virtualization:** Windows, MacOS X, Linux, WSL, VPS, NAS, iOS, Android, VMWare, VirtualBox, Vagrant -->
 
-**Cloud & Research Infrastructure:** Azure, Digital Ocean, Chameleon Cloud
 
-**Tools & Systems:** ChampSim, Wireshark, Nmap, Metasploit, SQL Server, Google Apps Script, FileZilla, Git
-
-## Publications
+# Publications
 
 {% if site.publications.size > 0 %}
 {% for post in site.publications reversed %}
@@ -90,7 +97,7 @@ I am a <b>Computer Science Instructor</b> at Department of Engineering, Computin
 <p>No publications found for <strong>Vadim Biryukov</strong>.</p>
 {% endif %}
 
-## Teaching
+# Teaching
 
 {% if site.teaching.size > 0 %}
 {% for post in site.teaching reversed %}
@@ -100,12 +107,19 @@ I am a <b>Computer Science Instructor</b> at Department of Engineering, Computin
 <p><strong>Lewis University</strong> - Teaching Assistant/Instructor</p>
 {% endif %}
 
-## News & Updates
+## News
 
-{% if site.posts.size > 0 %}
+- **Feb 2026** — *Zion: A Comprehensive, Adaptive, and Lightweight Hardware Prefetcher* accepted at **DATE 2026**
+- **Jun 2024** — *Automated IoT-Based Performance Assessments through Activity Recognition and Semantic Evaluation in Smart Learning Environments* published at **IEEE ICCAD 2024**
+- **Feb 2024** — Designed all programming challenges for **ACCA**
+- **Summer 2023** — Co-instructor and Technical Coordinator, **Project Go** — U.S. Dept. of Defense funded ROTC program
+- **AY 2022–23** — Web Master, **EIT Conference**
+- **AY 2022–23** — Member, **CUAAC** (College Undergraduate Academic Affairs Committee)
+- **Summer 2022** — Technical Coordinator, **STARTALK** — U.S. Dept. of Education funded language program
+<!-- {% if site.posts.size > 0 %}
 {% for post in site.posts limit:5 %}
 * **{{ post.date | date: "%B %Y" }}**: {{ post.title }}
 {% endfor %}
 {% else %}
 <p>No recent news updates.</p>
-{% endif %}
+{% endif %} -->

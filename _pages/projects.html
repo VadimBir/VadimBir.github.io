@@ -5,75 +5,175 @@ permalink: /projects/
 author_profile: true
 ---
 
+<div class="skills-header">
+<p class="skills-tagline"><em>Core expertise in systems programming and computer architecture; additional experience across machine learning, blockchain, and web domains.</em></p>
+<div class="skills-grid">
+  <div class="skill-row"><span class="skill-cat">Programming</span><span class="skill-vals">C++, Python, Java, MASM, Go, COBOL</span></div>
+  <div class="skill-row"><span class="skill-cat">Research Tools</span><span class="skill-vals">ChampSim, Intel Pin Tool, GDB, Perf, Valgrind, Overleaf</span></div>
+  <div class="skill-row"><span class="skill-cat">Systems & Architecture</span><span class="skill-vals">Linux, WSL, VPS, NAS, VMware, VirtualBox, Vagrant, Docker</span></div>
+  <div class="skill-row"><span class="skill-cat">Compilers & Build</span><span class="skill-vals">Clang, GCC, Make, Bash</span></div>
+  <div class="skill-row"><span class="skill-cat">ML & Frameworks</span><span class="skill-vals">TensorFlow, PyTorch, vLLM</span></div>
+  <div class="skill-row"><span class="skill-cat">Web & Application</span><span class="skill-vals">HTML5, CSS, JavaScript, Django, React, Laravel, PHP</span></div>
+  <div class="skill-row"><span class="skill-cat">Blockchain</span><span class="skill-vals">Solidity, Web3.js, OpenZeppelin, MetaMask, Moralis</span></div>
+  <div class="skill-row"><span class="skill-cat">Cloud & Databases</span><span class="skill-vals">Azure, Chameleon Cloud, Digital Ocean, MySQL, SQL Server, Firebase</span></div>
+  <div class="skill-row"><span class="skill-cat">Security & Networking</span><span class="skill-vals">WireGuard VPN, Wireshark, Nmap, Metasploit</span></div>
+  <div class="skill-row"><span class="skill-cat">IDEs & Tooling</span><span class="skill-vals">CLion, PyCharm, IntelliJ IDEA, VS Code, Git, Selenium (Python, Java)</span></div>
+</div>
+</div>
+
 <div class="projects-container">
 
 <div class="project">
+<h3>Zion: Comprehensive, Adaptive, and Lightweight Hardware Prefetcher</h3>
+<p><span class="tag tag-research">Research</span> <span class="tag tag-published">Published</span></p>
+<p><strong>Technologies:</strong> C++, ChampSim, Memory Architecture, Hardware Design</p>
+<p>
+Designed and implemented Zion — a novel L2 hardware prefetcher built around <strong>Independent Temporal-Spatial Modules (ITSM)</strong>. Segmented delta and stride predictors eliminate inter-stream conflicts that degrade unified-table prefetchers under mixed workloads. Runtime feedback mechanisms — confidence-based filtering, periodic accuracy monitoring, and MSHR-aware control — dynamically regulate prefetch aggressiveness and insertion behavior under memory pressure. Hardware cost: ~9KB storage at L2 cache level.
+</p>
+<p><strong>Results vs. IPCP, Bingo, SPP, Berti:</strong> 4-core SPEC up to 43.2% speedup · self-attention workloads up to 43.0% speedup · 90.5% LLC miss coverage on LLM attention (4-core) · heterogeneous 4-core mixes 63.8% average improvement over no prefetching.
+</p>
+<p><em>Published: Design, Automation and Test in Europe (DATE 2026)</em></p>
+</div>
+
+<div class="project">
+<h3>ChampSim Multi-Core Simulation Engine — Performance Overhaul</h3>
+<p><span class="tag tag-research">Research</span> <span class="tag tag-systems">Systems Programming</span></p>
+<p><strong>Technologies:</strong> C++, Multi-threading, Memory Architecture, XZ Compression</p>
+<p>
+Redesigned core simulation pipeline of <a href="https://github.com/ChampSim/ChampSim">ChampSim</a> — the standard academic CPU simulator for memory hierarchy and prefetcher research. Replaced shallow-copy object passing with reference-based data flow, restructured internal data layout for cache efficiency, and consolidated per-core XZ trace decompression from N independent threads into a single unified thread co-located with the simulation loop, reducing OS context switching overhead under parallel workloads.
+</p>
+<p><strong>Results:</strong> 1-core 2–3× speedup · 2-core 3× · 4-core 5× · 8/16-core &gt;5× · 30–40% increase in concurrent simulations · up to 90% reduction in end-to-end experiment time.
+</p>
+</div>
+
+<div class="project">
 <h3>KV Cache Eviction Policy for Large Language Models</h3>
+<p><span class="tag tag-research">Research</span></p>
 <p><strong>Technologies:</strong> Python, vLLM Framework, POS Tagging, Memory Optimization</p>
-<p>Engineered a novel approach to KV cache eviction policy using POS tagging to determine token relevance, effectively optimizing memory footprint and performance improvement of LLMs. The strategy ensures performance improvement and resource management within a vLLM framework via a custom BlockCombiner class prioritizing essential tokens for model accuracy.</p>
+<p>
+Engineered a novel approach to KV cache eviction policy using POS tagging to determine token relevance, effectively optimizing memory footprint and performance improvement of LLMs. The strategy ensures performance improvement and resource management within a vLLM framework via a custom BlockCombiner class prioritizing essential tokens for model accuracy.
+</p>
 </div>
 
 <div class="project">
 <h3>Cryptocurrency Lottery Token</h3>
+<p><span class="tag tag-blockchain">Blockchain</span></p>
 <p><strong>Technologies:</strong> Solidity, Ethereum, Smart Contracts, React, Web3, Moralis, OpenZeppelin, Metamask</p>
-<p>Developed a blockchain-based lottery token using Smart Contract via Solidity on Ethereum, allowing users to gamble via a Metamask-integrated website. The token ensures fair win probabilities correlated with equitable rewards, employing robust functionality through modern blockchain frameworks.</p>
+<p>
+Developed a blockchain-based lottery token using Smart Contract via Solidity on Ethereum, allowing users to gamble via a Metamask-integrated website. The token ensures fair win probabilities correlated with equitable rewards, employing robust functionality through modern blockchain frameworks.
+</p>
 </div>
 
 <div class="project">
-<h3>Password Manager (Django)</h3>
-<p><strong>Technologies:</strong> Django, Python, Web Framework, Authentication, Database Security</p>
-<p>A working password manager using Django web framework. This website allows users to register, login and logout. The web system enables users to add password name tags, passwords, and descriptions. Passwords are visible only to the author, ensuring secure personal data management.</p>
-</div>
-
-<div class="project">
-<h3>3-Dimensional Connect 4 Game</h3>
-<p><strong>Technologies:</strong> Unity, C#, 3D Game Development, Custom Scripts</p>
-<p>Designed and developed a 3D Connect 4 game in Unity with a three-axis board. Created custom scripts in C# that handle all calculations including win/lose condition checks, free-cam script, border limits, and teleportation functionality.</p>
+<h3>Network Infrastructure</h3>
+<p><span class="tag tag-systems">Systems Programming</span></p>
+<p><strong>Technologies:</strong> WireGuard VPN, VPS, NAS, Docker, Linux</p>
+<p>
+Provisioned and configured a VPS-hosted WireGuard VPN server enabling encrypted site-to-site connectivity across multiple locations. Deployed NAS for centralized storage with Docker containerization for service isolation and network segmentation.
+</p>
 </div>
 
 <div class="project">
 <h3>Battleship Game with Design Patterns</h3>
+<p><span class="tag tag-software">Software Engineering</span></p>
 <p><strong>Technologies:</strong> Java, Design Patterns, JUnit, Object-Oriented Programming</p>
-<p>Battleship game in Java implementing four design patterns: Decorator Pattern, Factory Pattern, Command Pattern, and State Pattern. Features include game saving mechanics, resume functionality after game closure, and extensible addon architecture. Includes comprehensive JUnit tests for reliability.</p>
+<p>
+Battleship game in Java implementing four design patterns: Decorator Pattern, Factory Pattern, Command Pattern, and State Pattern. Features include game saving mechanics, resume functionality after game closure, and extensible addon architecture. Includes comprehensive JUnit tests for reliability.
+</p>
 </div>
 
 <div class="project">
-<h3>Password Manager (Java)</h3>
-<p><strong>Technologies:</strong> Java, Object-Oriented Design, Data Management</p>
-<p>Password Manager written in Java using object-oriented design principles. Allows users to create passwords with tags, perform partial searches for saved passwords via name tags, and delete passwords using name tag identification.</p>
+<h3>3-Dimensional Connect 4 Game</h3>
+<p><span class="tag tag-game">Game Development</span></p>
+<p><strong>Technologies:</strong> Unity, C#, 3D Game Development, Custom Scripts</p>
+<p>
+Designed and developed a 3D Connect 4 game in Unity with a three-axis board. Created custom scripts in C# that handle all calculations including win/lose condition checks, free-cam script, border limits, and teleportation functionality.
+</p>
+</div>
+
+<div class="project">
+<h3>Password Manager</h3>
+<p><span class="tag tag-web">Web Development</span></p>
+<p><strong>Technologies:</strong> Django, Python, Web Framework, Authentication, Database Security</p>
+<p>
+A working password manager using Django web framework. This website allows users to register, login and logout. The web system enables users to add password name tags, passwords, and descriptions. Passwords are visible only to the author, ensuring secure personal data management.
+</p>
 </div>
 
 <div class="project">
 <h3>GoLang Random Mosaic</h3>
-<p><strong>Technologies:</strong> Go, HTML, CSS, Web Development, Dynamic UI</p>
-<p>A Go language hosted mosaic webpage utilizing HTML and CSS that creates a 6 by 6 grid of random shapes with random colors and characters. Features a button for re-randomizing shapes and characters, with dynamic sizing that adapts to window resizing.</p>
+<p><span class="tag tag-web">Web Development</span></p>
+<p><strong>Technologies:</strong> Go, HTML, CSS, Web Development, Dynamic UI, Concurrency</p>
+<p>
+A Go-hosted mosaic webpage utilizing Go's concurrency model for request handling alongside HTML and CSS frontend. Generates a 6×6 grid of random shapes, colors, and characters with dynamic re-randomization and responsive sizing. Demonstrates Go's <code>net/http</code> concurrent request serving and template rendering pipeline.
+</p>
 </div>
 
 <div class="project">
 <h3>Tic Tac Toe Game</h3>
-<p><strong>Technologies:</strong> C++, Console Applications, Real-time Input</p>
-<p>Console-based Tic Tac Toe game in C++ featuring a fully functioning menu system and real-time user input processing. Demonstrates fundamental programming concepts and user interaction design.</p>
+<p><span class="tag tag-game">Game Development</span> <span class="tag tag-systems">Systems Programming</span></p>
+<p><strong>Technologies:</strong> C++, OOP, Real-time Input, State Management</p>
+<p>
+Two-player Tic Tac Toe implemented in C++ with object-oriented architecture across dedicated <code>Game</code> and <code>HowTo</code> classes. Features real-time keypress input via <code>getch()</code> with recursive input validation — invalid or occupied moves are rejected without requiring re-prompting. Win detection covers all 8 axes with a full game state machine managing player turns, draw detection, and session reset for replay.
+</p>
 </div>
 
 </div>
 
 <style>
-.projects-container {
-  max-width: 100%;
+.skills-header {
+  background-color: #f0f4f8;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 2rem;
 }
 
+.skills-tagline {
+  margin: 0 0 0.8rem 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.skill-row {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.skill-cat {
+  font-weight: 700;
+  color: #2c3e50;
+  min-width: 180px;
+  flex-shrink: 0;
+}
+
+.skill-vals {
+  color: #333;
+}
+
+.projects-container { max-width: 100%; }
+
 .project {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   padding: 1.5rem;
   border: 1px solid #E0E0E0;
   border-radius: 8px;
-  background-color: #E0E0E0;
+  background-color: #f9f9f9;
 }
 
 .project h3 {
   margin-top: 0;
   color: #2c3e50;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .project p {
@@ -82,7 +182,25 @@ author_profile: true
   color: #000000;
 }
 
-.project p strong {
-  color: #34495e;
+.project p strong { color: #34495e; }
+
+.tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
+
+.tag-research  { background-color: #1a5276; }
+.tag-published { background-color: #1e8449; }
+.tag-systems   { background-color: #6c3483; }
+.tag-blockchain{ background-color: #d35400; }
+.tag-software  { background-color: #2471a3; }
+.tag-game      { background-color: #cb4335; }
+.tag-web       { background-color: #117a65; }
 </style>
