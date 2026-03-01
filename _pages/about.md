@@ -24,7 +24,8 @@ classes: wide
 </div>
 
 <p style="margin-top:0;line-height:1.6">
-Currently a <b>Computer Science Instructor</b> at <b>Lewis Univeristy</b> PhD candidate in the Department of Computer Science at the Illinois Institute of Technology (GPA: 3.84) and a member of the Gnosis Research Center. My research specializes in system memory architecture, memory hierarchy optimization, and developing hardware prefetchers for computing systems. Hold M.S. in Computer Science from Lewis University (GPA: 3.76) with concentration in Software Engineering, and a B.S. in Computer Science from Lakeland University (GPA: 3.8).
+<h2> About Me</h2>
+I am a <b>Computer Science Instructor</b> at <b>Lewis Univeristy</b> where I work at Department of Engineering, Computing and Mathematical Sciences (ECaMS). I am a PhD candidate in the Department of Computer Science at the Illinois Institute of Technology where I work closely with <href src=http://www.cs.iit.edu/~scs/sun/biography.html>Prof. Xian-He Sun</href> at the <href src=https://grc.iit.edu/>Gnosis Research Center</href>. My research is in <b>system memory architecture</b>, <b>memory hierarchy optimization</b> for computer systems.
 </p>
 
 <p style="line-height:1.6">
