@@ -23,9 +23,9 @@ classes: wide
 </a>
 </div>
 
-<h2> About Me</h2>
+## About Me
 <p style="margin-top:0;line-height:1.6">
-I am a <b>Computer Science Instructor</b> at <b>Lewis Univeristy</b> where I work at Department of Engineering, Computing and Mathematical Sciences (ECaMS). I am a PhD candidate in the Department of Computer Science at the Illinois Institute of Technology where I work closely with <href src=http://www.cs.iit.edu/~scs/sun/biography.html>Prof. Xian-He Sun</href> at the <href src=https://grc.iit.edu/>Gnosis Research Center</href>. My research is in <b>system memory architecture</b>, <b>memory hierarchy optimization</b> for computer systems.
+I am a <b>Computer Science Instructor</b> at <b>Lewis Univeristy</b> where I work at Department of Engineering, Computing and Mathematical Sciences (ECaMS). I am a PhD candidate in the Department of Computer Science at the Illinois Institute of Technology where I work closely with <a href src="http://www.cs.iit.edu/~scs/sun/biography.html">Prof. Xian-He Sun</a> at the <a href src="https://grc.iit.edu/">Gnosis Research Center</a>. My research is in <b>system memory architecture</b>, <b>memory hierarchy optimization</b> for computer systems.
 </p>
 
 <!-- <p style="line-height:1.6">
