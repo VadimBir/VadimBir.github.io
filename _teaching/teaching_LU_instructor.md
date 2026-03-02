@@ -1,13 +1,14 @@
 ---
 title: "Computer Science Instructor"
 collection: teaching
-type: "Undergraduate and Graduate courses"
+type: "Graduate and Undergraduate courses"
 permalink: /teaching/lewis-university-instructor
-venue: "Lewis University, ECaMS — Computer Science"
+venue: "Department of Engineering, Computing and Mathematical Sciences, Lewis University, Romeoville, IL"
 date: 2022-08-01
 location: "Romeoville, Illinois, United States"
 excerpt: "10 courses across undergraduate and graduate levels. 3 years concurrent with doctoral research at IIT."
 ---
+10 courses across undergraduate and graduate levels. 3 years concurrent with doctoral research at IIT.
 
 **Position:** Computer Science Instructor  
 **Duration:** August 2022 – Present  

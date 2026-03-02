@@ -36,7 +36,7 @@ I am a <b>Computer Science Instructor</b> at <b>Lewis Univeristy</b> where I wor
 <div style="margin-bottom:2rem"> 
 
 <div style="float:right;margin:0 0 1rem 2rem;">
-<img src="/images/biryukov.jpg" alt="Vadim Biryukov" style="border-radius:16px;width:200px;height:auto">
+<img src="/images/biryukov.jpg" alt="Vadim Biryukov" style="border-radius:16px;width:220px;height:auto">
 </div>
 
 <div style="display:flex;gap:1rem;margin-bottom:1.5rem;align-items:center">
@@ -55,6 +55,7 @@ I am a <b>Computer Science Instructor</b> at <b>Lewis Univeristy</b> where I wor
 <p style="margin-top:0;line-height:1.6">
 I am a <b>Computer Science Instructor</b> at Department of Engineering, Computing and Mathematical Sciences (ECaMS) at <b>Lewis University</b>. I am a PhD candidate in the Department of Computer Science at the Illinois Institute of Technology where I work closely with <a href="http://www.cs.iit.edu/~scs/sun/biography.html">Prof. Xian-He Sun</a> at the <a href="https://grc.iit.edu/">Gnosis Research Center</a>. My research is in <b>system memory architecture</b>, <b>memory hierarchy optimization</b> for computer systems.
 </p>
+
 <div style="clear:both;"></div>
 </div>
 
@@ -65,7 +66,8 @@ I am a <b>Computer Science Instructor</b> at Department of Engineering, Computin
 * Hardware prefetchers
 * Computing systems
 * Large Language Models efficiency 
-
+  
+<hr> 
 
 # Publications
 
@@ -76,6 +78,8 @@ I am a <b>Computer Science Instructor</b> at Department of Engineering, Computin
 {% else %}
 <p>No publications found for <strong>Vadim Biryukov</strong>.</p>
 {% endif %}
+
+<hr>
 
 # Teaching
 
@@ -95,4 +99,4 @@ I am a <b>Computer Science Instructor</b> at Department of Engineering, Computin
 - **Summer 2023** — Co-instructor and Technical Coordinator, **Project Go** — U.S. Dept. of Defense funded ROTC program
 - **AY 2022–23** — Web Master, **EIT Conference**
 - **AY 2022–23** — Member, **CUAAC** (College Undergraduate Academic Affairs Committee)
-- **Summer 2022** — Technical Coordinator, **STARTALK** — U.S. Dept. of Education funded language program
+- **Summer 2022** — Graduate Teaching Assistant and Technical Coordinator, **STARTALK** — U.S. Dept. of Education funded language program

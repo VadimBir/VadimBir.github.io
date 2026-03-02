@@ -7,7 +7,7 @@ $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : #9ba1a6;
-$lighter-gray               : mix(#fff, $gray, 90%);
+$lighter-gray               : mix(#b4b4b4, $gray, 90%);
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -30,7 +30,7 @@ $sidebar-screen-min-width   : 1024px;
 :root {
     --global-base-color                 : #{$gray};
     --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
+    --global-footer-bg-color            : #c9c9c9;
     --global-border-color               : #{$lighter-gray};
     --global-dark-border-color          : #bdc1c4;
     --global-code-background-color      : #fafafa;
@@ -42,6 +42,20 @@ $sidebar-screen-min-width   : 1024px;
     --global-masthead-link-color        : #{$dark-gray};
     --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
     --global-text-color                 : #{$dark-gray};
+    --global-bold-color                 : #000004;
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
+}
+
+:root b {
+    color: var(--global-bold-color);
+    font-weight: bold;
+}
+:root strong {
+    color: var(--global-bold-color);
+    font-weight: bold;
+}
+:root h1 h2 h3 h4 h5 h6 {
+    color: var(--global-bold-color);
+    font-weight: bold;
 }
