@@ -1,8 +1,0 @@
----
-title: "Tic Tac Toe Game"
-excerpt: "Two-player Tic Tac Toe implemented in <strong>C++</strong> with <strong>object-oriented architecture</strong> across dedicated <code>Game</code> and <code>HowTo</code> classes. Features real-time keypress input via <code>getch()</code> with recursive input validation - invalid or occupied moves are rejected without requiring re-prompting. Win detection covers all 8 axes with a <strong>full game state machine</strong> managing player turns, draw detection, and session reset for replay."
-technologies: "C++, OOP, Real-time Input, State Management"
-tags: ["game", "systems"]
----
-
-Two-player Tic Tac Toe implemented in <strong>C++</strong> with <strong>object-oriented architecture</strong> across dedicated <code>Game</code> and <code>HowTo</code> classes. Features real-time keypress input via <code>getch()</code> with recursive input validation - invalid or occupied moves are rejected without requiring re-prompting. Win detection covers all 8 axes with a <strong>full game state machine</strong> managing player turns, draw detection, and session reset for replay.

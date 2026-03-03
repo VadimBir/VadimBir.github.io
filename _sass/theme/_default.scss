@@ -41,10 +41,10 @@ $sidebar-screen-min-width   : 1024px;
     --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
     --global-masthead-link-color        : #{$dark-gray};
     --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
+    --global-text-color                 : #{$darker-gray};
     --global-bold-color                 : #000004;
     --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
+    --global-thead-color                : #e1e1e1;
 }
 
 :root b {
@@ -58,4 +58,26 @@ $sidebar-screen-min-width   : 1024px;
 :root h1 h2 h3 h4 h5 h6 {
     color: var(--global-bold-color);
     font-weight: bold;
+}
+
+/* Light mode table defaults */
+:root table thead,
+:root table thead th,
+:root table tbody td,
+:root table th {
+  background-color: var(--global-thead-color, #f9f9f9);  /* your light var, fallback matches */
+  color: #ffffff;
+  border-bottom: 2px solid #999999;
+  border-right: 2px solid #888888;
+  color: var(--global-text-color);
+}
+
+:root table thead th {
+  font-weight: 700;
+  padding: 12px 15px;
+}
+
+/* Optional: subtle stripe on body rows */
+:root table tbody tr:nth-child(even) {
+  background-color: var(--global-thead-color, #c8c8c8);
 }

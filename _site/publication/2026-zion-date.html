@@ -136,7 +136,7 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/positions/">Positions</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/projects/">Projects</a></li>
@@ -269,23 +269,34 @@
         
         
         
-        <i>Design, Automation and Test in Europe Conference, <b>DATE 2026</b></i>
-          <!-- <p>Published in <i>Design, Automation and Test in Europe Conference, <b>DATE 2026</b></i>, 2026 </p> -->
+        <i>Design, Automation and Test in Europe Conference <b>DATE 2026</b></i>
+          <!-- <p>Published in <i>Design, Automation and Test in Europe Conference <b>DATE 2026</b></i>, 2026 </p> -->
             
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p><b>Vadim Biryukov</b>, Xiaoyang Lu, Zirui Liu, Kaixiong Zhou, Xian-He Sun</p>
+        <p>Authors: <b>Vadim Biryukov</b>, Xiaoyang Lu, Zirui Liu, Kaixiong Zhou, Xian-He Sun</p>
 
-<p>Zion is a comprehensive, adaptive L2 hardware prefetcher built around <strong>Independent Temporal-Spatial Modules (ITSM)</strong> — segmented delta and stride predictors that reduce inter-stream conflicts and improve coverage across diverse memory access patterns.</p>
+<h2 id="background">Background</h2>
+
+<p>The widening processor-memory performance gap makes data access optimization critical, especially for memory-intensive workloads where off-chip latency dominates execution time. Attention-based computations in LLMs intensify this bottleneck through quadratic growth in memory complexity, driving frequent traffic between caches and DRAM.</p>
+
+<p>Existing hardware prefetchers rely on monolithic prediction tables that are prone to entry conflicts across multiple streams. Notably, count-based confidence mechanism undervalues locally frequent but globally rare patterns, causing inability to react to shifting system conditions, which limit prefetchers effectiveness under dynamic, multi-phase access patterns.</p>
+
+<h2 id="design">Design</h2>
+
+<p>Zion is a comprehensive, adaptive L2 hardware prefetcher built around Independent Temporal-Spatial Modules (ITSM) - five range-segmented prediction modules that isolate delta and stride tracking to eliminate cross-stream interference present in unified-table designs. Runtime feedback through confidence filtering, periodic effectiveness evaluation, and MSHR-aware insertion control enables Zion to dynamically regulate prefetch aggressiveness and placement under varying memory pressure.</p>
+
+<p><img src="/images/2026Zion_Paper/Zion_ITSM_SysView.png" alt="Overview of Zion" /></p>
 
 <p><strong>Core mechanisms:</strong></p>
+
 <ul>
-  <li><strong>ITSM</strong>: Independent temporal and spatial prediction modules eliminate unified-table conflicts that degrade existing prefetchers under mixed workloads</li>
-  <li><strong>Runtime adaptation</strong>: Confidence-based filtering + periodic accuracy monitoring dynamically regulate prefetch aggressiveness</li>
-  <li><strong>MSHR-aware control</strong>: Adjusts prefetch insertion behavior based on L2 resource availability under memory pressure</li>
-  <li><strong>Hardware cost</strong>: ~9KB storage; integrates at L2 cache level</li>
+  <li><strong>Independent Temporal-Spatial Modules (ITSM)</strong>: Range-segmented delta and stride predictors that avoid inter-stream conflicts and capture both frequent and rare access patterns.</li>
+  <li><strong>Runtime Adaptation</strong>: Per-module confidence thresholds and periodic accuracy evaluation dynamically enable or disable prediction modules.</li>
+  <li><strong>MSHR-Aware Control</strong>: Prefetch insertion destination shifts based on real-time L2 memory availability.</li>
+  <li><strong>Lightweight Design</strong>: ~9KB total storage - 12.6x and 2.2x lower overhead than Bingo and Berti, respectively.</li>
 </ul>
 
 <p><strong>Key results vs. IPCP, Bingo, SPP, Berti:</strong></p>
@@ -296,7 +307,11 @@
   <li>Heterogeneous 4-core mixes: <strong>63.8% average improvement</strong> over no prefetching</li>
 </ul>
 
-<p><a href="/files/2026-04-DATE-Zion-HW-Prefetcher.pdf" style="display:inline-block; padding:0.4rem 0.9rem; background:#Ad8eAd; color:white; border-radius:6px; text-decoration:none; font-size:0.9rem; vertical-align:middle; margin-left:0.5rem;"><b>PDF</b></a></p>
+<p><img src="/images/2026Zion_Paper/Hetero_4Cores_Per_Pf_Speedup_zi.png" alt="Weighted speedup on 500 heterogeneous 4-core workload mixes" /></p>
+
+<p><em>Weighted speedup of prefetchers on 500 heterogeneous SPEC and self-attention workload mixes in a 4-core system, sorted by Zion performance.</em></p>
+
+<p><a href="/files/2026-04-DATE-Zion-HW-Prefetcher.pdf" style=" display:inline-block;  padding:0.5rem 0.5rem;  background:#8899BB;  border-radius:32px;  text-decoration:none;  font-size:0.9rem;  vertical-align:middle;  margin-left:0.5rem;"><b>PDF</b></a></p>
 
 
 
@@ -382,7 +397,7 @@
 
 <div class="page__footer-copyright">
   &copy; 2026 Vadim Biryukov, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated 2026-03-02
+  Site last updated 2026-03-03
 </div>
 
       </footer>

@@ -40,15 +40,15 @@
 
 
     {% if post.collection == 'publications' and post.excerpt and site.read_more != 'enabled' %}
-      <b>Authors</b>: {{ post.excerpt }}
-    {% elsif post.collection == 'teaching' and post.excerpt and site.read_more != 'enabled' %}
+      <b><sub>Authors</sub></b>: {{ post.excerpt }}
+    {% elsif post.collection == 'positions' and post.excerpt and site.read_more != 'enabled' %}
       <!-- <br>• {{ post.excerpt }} -->
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
     <!-- {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong> -->
     {% endif %}
 
-        {% if post.collection == 'teaching' %}
+        {% if post.collection == 'positions' %}
           <!-- <p> {{ post.type }}, <i>{{ post.venue }}</i> {{ post.date | default: "1900-01-01" | date: "%Y" }} </p> -->
           <i>{{ post.venue }}</i><br>{{ post.type }} 
         {% elsif post.collection == 'publications' %}

@@ -4,24 +4,35 @@ title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
+<head>
+  <link rel="stylesheet" href="../_pages/100-small_custom_style.css">
+</head> 
 
-<div class="skills-header">
-  <p class="skills-tagline"><em>Core expertise in systems programming and computer architecture; additional experience across machine learning, blockchain, and web domains.</em></p>
-  <div class="skills-grid">
-    <div class="skill-row"><span class="skill-cat">Programming</span><span class="skill-vals">C++, Python, Java, MASM, Go, COBOL</span></div>
-    <div class="skill-row"><span class="skill-cat">Research Tools</span><span class="skill-vals">ChampSim, Intel Pin Tool, GDB, Perf, Valgrind, Overleaf</span></div>
-    <div class="skill-row"><span class="skill-cat">Systems &amp; Architecture</span><span class="skill-vals">Linux, WSL, VPS, NAS, VMware, VirtualBox, Vagrant, Docker</span></div>
-    <div class="skill-row"><span class="skill-cat">Compilers &amp; Build</span><span class="skill-vals">Clang, GCC, Make, Bash</span></div>
-    <div class="skill-row"><span class="skill-cat">ML &amp; Frameworks</span><span class="skill-vals">TensorFlow, PyTorch, vLLM</span></div>
-    <div class="skill-row"><span class="skill-cat">Web &amp; Application</span><span class="skill-vals">HTML5, CSS, JavaScript, Django, React, Laravel, PHP</span></div>
-    <div class="skill-row"><span class="skill-cat">Blockchain</span><span class="skill-vals">Solidity, Web3.js, OpenZeppelin, MetaMask, Moralis</span></div>
-    <div class="skill-row"><span class="skill-cat">Cloud &amp; Databases</span><span class="skill-vals">Azure, Chameleon Cloud, Digital Ocean, MySQL, SQL Server, Firebase</span></div>
-    <div class="skill-row"><span class="skill-cat">Security &amp; Networking</span><span class="skill-vals">WireGuard VPN, Wireshark, Nmap, Metasploit</span></div>
-    <div class="skill-row"><span class="skill-cat">IDEs &amp; Tooling</span><span class="skill-vals">CLion, PyCharm, IntelliJ IDEA, VS Code, Git, Selenium (Python, Java)</span></div>
-  </div>
-</div>
+{% include_relative 005-tech_skills.html %}
 
 <div class="projects-container">
+  {% for post in site.projects reversed %}
+    <div class="project">
+      <h3>{{ post.title }}</h3>
+      {% if post.tags %}
+        {% for tag in post.tags %}
+          <span class="tag tag-{{ tag | slugify }}">{{ tag | capitalize }}</span>
+        {% endfor %}
+      {% endif %}
+      {% if post.technologies %}
+        <p><strong>Technologies:</strong> {{ post.technologies }}</p>
+      {% endif %}
+      <p>
+        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+      </p>
+      {% if post.venue %}
+        <p><em>Published: {{ post.venue }}</em></p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<!-- <div class="projects-container">
 
 <div class="project">
 <h3>Zion: Comprehensive, Adaptive, and Lightweight Hardware Prefetcher</h3>
@@ -91,20 +102,20 @@ Designed and developed a 3D Connect 4 game in <strong>Unity</strong> with a thre
 </div>
 
 <div class="project">
-<h3>Password Manager</h3>
-<p><span class="tag tag-web">Web Development</span></p>
-<p><strong>Technologies:</strong> Django, Python, Web Framework, Authentication, Database Security</p>
-<p>
-A working password manager using <strong>Django web framework</strong>. This website allows users to <strong>register, login and logout</strong>. The web app enables users to <strong>add name tags, passwords, and descriptions</strong> visible only to the corresponding users, ensuring secure personal data management.
-</p>
-</div>
-
-<div class="project">
 <h3>GoLang Random Mosaic</h3>
 <p><span class="tag tag-web">Web Development</span></p>
 <p><strong>Technologies:</strong> Go, HTML, CSS, Web Development, Dynamic UI, Concurrency</p>
 <p>
 A <strong>Go-hosted</strong> mosaic webpage utilizing <strong>Go's concurrency</strong> model for request handling alongside <strong>HTML and CSS frontend</strong>. Generates a 6×6 grid of random shapes, colors, and characters with dynamic re-randomization and responsive sizing. Demonstrates Go's <code>net/http</code> <strong>concurrent request serving</strong> and <strong>template rendering pipeline</strong>.
+</p>
+</div>
+
+<div class="project">
+<h3>Password Manager</h3>
+<p><span class="tag tag-web">Web Development</span></p>
+<p><strong>Technologies:</strong> Django, Python, Web Framework, Authentication, Database Security</p>
+<p>
+A working password manager using <strong>Django web framework</strong>. This website allows users to <strong>register, login and logout</strong>. The web app enables users to <strong>add name tags, passwords, and descriptions</strong> visible only to the corresponding users, ensuring secure personal data management.
 </p>
 </div>
 
@@ -117,8 +128,8 @@ Two-player Tic Tac Toe implemented in <strong>C++</strong> with <strong>object-o
 </p>
 </div>
 
-</div>
-
+</div> -->
+<!-- 
 <style>
 .skills-header {
   border: 1px solid var(--global-border-color, #d0d7de);
@@ -212,7 +223,7 @@ html[data-theme="dark"] .skill-vals {
   font-size: 0.75rem;
   font-weight: 600;
   padding: 0.25rem 0.6rem;
-  border-radius: 12px;                /* pill shape — less boxy */
+  border-radius: 12px;                /* pill shape - less boxy */
   margin-right: 0.5rem;
   margin-bottom: 0.4rem;
   letter-spacing: 0.02em;
@@ -226,7 +237,7 @@ html[data-theme="dark"] .skill-vals {
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
-/* Cleaner / more modern colors — not too bright/neon */
+/* Cleaner / more modern colors - not too bright/neon */
 .tag-research   { background-color: #0d6efd; }  /* Bootstrap blue */
 .tag-published  { background-color: #198754; }  /* success green */
 .tag-systems    { background-color: #6f42c1; }  /* purple */
@@ -234,4 +245,4 @@ html[data-theme="dark"] .skill-vals {
 .tag-software   { background-color: #017890; }  /* cyan */
 .tag-game       { background-color: #dc3545; }  /* red */
 .tag-web        { background-color: #198754; }  /* green again or #6610f2 purple */
-</style>
+</style> -->

@@ -131,7 +131,7 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/positions/">Positions</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/projects/">Projects</a></li>
@@ -150,6 +150,8 @@
 </div>
 
     
+
+
 
 
 
@@ -251,23 +253,188 @@
     
       <h1 class="page__title">Projects</h1>
     
-    <div class="skills-header">
-  <p class="skills-tagline"><em>Core expertise in systems programming and computer architecture; additional experience across machine learning, blockchain, and web domains.</em></p>
+    <head>
+  <link rel="stylesheet" href="../_pages/100-small_custom_style.css">
+</head> 
+
+<div class="skills-header">
+  <p class="skills-tagline">
+    <em>Core expertise in systems programming and computer architecture; additional experience across machine learning, blockchain, and web domains.</em>
+  </p>
   <div class="skills-grid">
-    <div class="skill-row"><span class="skill-cat">Programming</span><span class="skill-vals">C++, Python, Java, MASM, Go, COBOL</span></div>
-    <div class="skill-row"><span class="skill-cat">Research Tools</span><span class="skill-vals">ChampSim, Intel Pin Tool, GDB, Perf, Valgrind, Overleaf</span></div>
-    <div class="skill-row"><span class="skill-cat">Systems &amp; Architecture</span><span class="skill-vals">Linux, WSL, VPS, NAS, VMware, VirtualBox, Vagrant, Docker</span></div>
-    <div class="skill-row"><span class="skill-cat">Compilers &amp; Build</span><span class="skill-vals">Clang, GCC, Make, Bash</span></div>
-    <div class="skill-row"><span class="skill-cat">ML &amp; Frameworks</span><span class="skill-vals">TensorFlow, PyTorch, vLLM</span></div>
-    <div class="skill-row"><span class="skill-cat">Web &amp; Application</span><span class="skill-vals">HTML5, CSS, JavaScript, Django, React, Laravel, PHP</span></div>
-    <div class="skill-row"><span class="skill-cat">Blockchain</span><span class="skill-vals">Solidity, Web3.js, OpenZeppelin, MetaMask, Moralis</span></div>
+    <div class="skill-row"><span class="skill-cat">Programming</span><span class="skill-vals">C++, Python, Java, Go, MASM, COBOL</span></div>
+    <div class="skill-row"><span class="skill-cat">Research Tools</span><span class="skill-vals">ChampSim, Intel Pin Tool, GDB, Perf, Valgrind, LaTeX</span></div>
+    <div class="skill-row"><span class="skill-cat">Build &amp; Testing</span><span class="skill-vals">Clang, GCC, Make, Bash, Git, Selenium (Python, Java), JUnit</span></div>
+    <div class="skill-row"><span class="skill-cat">Systems &amp; Architecture</span><span class="skill-vals">Linux, Docker, VPS, NAS, VMware, VirtualBox, Vagrant</span></div>
+    <div class="skill-row"><span class="skill-cat">ML &amp; Computer Vision</span><span class="skill-vals">TensorFlow, PyTorch, vLLM, OpenCV, CompreFace</span></div>
     <div class="skill-row"><span class="skill-cat">Cloud &amp; Databases</span><span class="skill-vals">Azure, Chameleon Cloud, Digital Ocean, MySQL, SQL Server, Firebase</span></div>
     <div class="skill-row"><span class="skill-cat">Security &amp; Networking</span><span class="skill-vals">WireGuard VPN, Wireshark, Nmap, Metasploit</span></div>
-    <div class="skill-row"><span class="skill-cat">IDEs &amp; Tooling</span><span class="skill-vals">CLion, PyCharm, IntelliJ IDEA, VS Code, Git, Selenium (Python, Java)</span></div>
+    <div class="skill-row"><span class="skill-cat">Web &amp; Application</span><span class="skill-vals">HTML5, CSS, JavaScript, Django, React, Laravel, PHP</span></div>
+    <div class="skill-row"><span class="skill-cat">Blockchain</span><span class="skill-vals">Solidity, Web3.js, OpenZeppelin, MetaMask, Moralis</span></div>
   </div>
 </div>
 
 <div class="projects-container">
+  
+    <div class="project">
+      <h3>Zion: Comprehensive, Adaptive, and Lightweight Hardware Prefetcher</h3>
+      
+        
+          <span class="tag tag-research">Research</span>
+        
+          <span class="tag tag-published">Published</span>
+        
+      
+      
+        <p><strong>Technologies:</strong> C++, ChampSim, Memory Architecture, Hardware Design</p>
+      
+      <p>
+        Designed and implemented Zion - a <strong>novel L2 hardware prefetcher</strong> built around <strong>Independent Temporal-Spatial Modules (ITSM)</strong>. Segmented delta and stride predictors eliminate inter-stream conflicts that degrade unified-table prefetchers under mixed workloads. <strong>Runtime feedback mechanisms</strong> - confidence-based filtering, periodic accuracy monitoring, and MSHR-aware control - dynamically regulate prefetch aggressiveness and insertion behavior under memory pressure. <strong>Hardware cost</strong>: ~9KB storage at L2 cache level.
+      </p>
+      
+        <p><em>Published: Design, Automation and Test in Europe (DATE 2026)</em></p>
+      
+    </div>
+  
+    <div class="project">
+      <h3>ChampSim Memory and Performance Optimization</h3>
+      
+        
+          <span class="tag tag-research">Research</span>
+        
+          <span class="tag tag-systems">Systems</span>
+        
+      
+      
+        <p><strong>Technologies:</strong> C++, Multi-threading, Memory Architecture, XZ Compression</p>
+      
+      <p>
+        Redesigned core simulation architecture of ChampSim. Reduced simulation time up to <b>90%</b> in multi-core configurations and increased simulation concurrency by <b>30-40%</b> through algorithm complexity reduction, data layout optimization for cache locality, object lifecycle management to minimize memory operations, and XZ decompression overhead reduction via OS context-switch mitigation. <br /><strong>Utilized Techniques:</strong> Algorithm redesign <i>(improved complexities)</i>, Data layout optimization <i>(better cache locality)</i>, Object orchestration <i>(reduced memory operations)</i>, XZ overhead reduction <i>(decreased OS context-switching)</i>.
+      </p>
+      
+    </div>
+  
+    <div class="project">
+      <h3>KV Cache Eviction Policy for Large Language Models</h3>
+      
+        
+          <span class="tag tag-research">Research</span>
+        
+      
+      
+        <p><strong>Technologies:</strong> Python, vLLM Framework, POS Tagging, Memory Optimization</p>
+      
+      <p>
+        Engineered a novel approach to <strong>KV cache eviction policy</strong> using POS tagging to determine token relevance, effectively <strong>optimizing memory footprint</strong> and <strong>performance improvement</strong> of LLMs. The strategy ensures resource management within a <strong>vLLM framework</strong> via a custom BlockCombiner class prioritizing essential tokens for model accuracy.
+      </p>
+      
+    </div>
+  
+    <div class="project">
+      <h3>SLEAAF: Actor Association Subsystem for Automated IoT Assessment</h3>
+      
+        
+          <span class="tag tag-research">Research</span>
+        
+          <span class="tag tag-published">Published</span>
+        
+      
+      
+        <p><strong>Technologies:</strong> Python, CompreFace, OpenCV, Raspberry Pi, Geometric Projection, Facial Recognition</p>
+      
+      <p>
+        Designed and implemented the actor association subsystem for the SLEAAF automated assessment framework. Developed a spatial localization pipeline converting CNN-based face detection bounding boxes into calibrated physical room-space coordinates through geometric projection against known station geometry. A temporal backward-scan algorithm associates each sensor event with the nearest identified student via proximity to known item positions, with left/right/center disambiguation logic. Achieved <strong>88% actor-event association accuracy</strong> across five controlled experiments. <em>Published: ICCAD 2024. Supported by NSF Grant No. 2138846.</em>
+      </p>
+      
+        <p><em>Published: International Conference on Control, Automation and Diagnosis (ICCAD 2024)</em></p>
+      
+    </div>
+  
+    <div class="project">
+      <h3>Network Infrastructure</h3>
+      
+        
+          <span class="tag tag-systems">Systems</span>
+        
+      
+      
+        <p><strong>Technologies:</strong> WireGuard VPN, VPS, NAS, Docker, Linux</p>
+      
+      <p>
+        Developed and maintained a multi-site <strong>VPN infrastructure</strong> using WireGuard across geographically <strong>distributed VPS nodes</strong>, supporting encrypted cross-regional connectivity and remote client onboarding. <strong>Deployed NAS</strong> for centralized network storage with local and remote access where wide variety of services were hosted.
+      </p>
+      
+    </div>
+  
+    <div class="project">
+      <h3>Cryptocurrency Lottery Token</h3>
+      
+        
+          <span class="tag tag-blockchain">Blockchain</span>
+        
+      
+      
+        <p><strong>Technologies:</strong> Solidity, Ethereum, Smart Contracts, React, Web3, Moralis, OpenZeppelin, Metamask</p>
+      
+      <p>
+        Developed a blockchain-based lottery token using <strong>Smart Contract via Solidity on Ethereum</strong>, allowing users to gamble via a <strong>Metamask-integrated website</strong>. The token ensures fair win probabilities correlated with equitable rewards, employing robust functionality through modern <strong>blockchain frameworks</strong>.
+      </p>
+      
+    </div>
+  
+    <div class="project">
+      <h3>Battleship Game with Design Patterns</h3>
+      
+        
+          <span class="tag tag-software">Software</span>
+        
+      
+      
+        <p><strong>Technologies:</strong> Java, Design Patterns, JUnit, Object-Oriented Programming</p>
+      
+      <p>
+        Battleship game in Java implementing four design patterns: <strong>Decorator Pattern, Factory Pattern, Command Pattern, and State Pattern</strong>. Features include game saving mechanics, resume functionality after game closure, and <strong>extensible addon architecture</strong>. Includes comprehensive <strong>JUnit tests</strong> for reliability.
+      </p>
+      
+    </div>
+  
+    <div class="project">
+      <h3>GoLang Random Mosaic</h3>
+      
+        
+          <span class="tag tag-web">Web</span>
+        
+      
+      
+        <p><strong>Technologies:</strong> Go, HTML, CSS, Web Development, Dynamic UI, Concurrency</p>
+      
+      <p>
+        A <strong>Go-hosted</strong> mosaic webpage utilizing <strong>Go’s concurrency</strong> model for request handling alongside <strong>HTML and CSS frontend</strong>. Generates a 6×6 grid of random shapes, colors, and characters with dynamic re-randomization and responsive sizing. Demonstrates Go’s <code>net/http</code> <strong>concurrent request serving</strong> and <strong>template rendering pipeline</strong>.
+      </p>
+      
+    </div>
+  
+    <div class="project">
+      <h3>Applied Software Systems</h3>
+      
+        
+          <span class="tag tag-software">Software</span>
+        
+          <span class="tag tag-game">Game</span>
+        
+      
+      
+        <p><strong>Technologies:</strong> C++, C#, Unity, Python, Django, Real-time I/O, 3D Spatial Computing, Web Security</p>
+      
+      <p>
+        <strong>Systems-level:</strong> Event-driven game engine in C++ with finite state machine architecture, real-time keypress handling via direct I/O, and recursive input validation across 8-axis win detection. <strong>3D Spatial Computing:</strong> Unity-based three-axis game with 3D coordinate traversal for win/loss evaluation, free-cam navigation system, boundary enforcement, and spatial teleportation mechanics. <strong>Web Application Security:</strong> Django-based credential management system with user authentication, session-based access control, and per-user encrypted data isolation.
+      </p>
+      
+    </div>
+  
+</div>
+
+<!-- <div class="projects-container">
 
 <div class="project">
 <h3>Zion: Comprehensive, Adaptive, and Lightweight Hardware Prefetcher</h3>
@@ -337,20 +504,20 @@ Designed and developed a 3D Connect 4 game in <strong>Unity</strong> with a thre
 </div>
 
 <div class="project">
-<h3>Password Manager</h3>
-<p><span class="tag tag-web">Web Development</span></p>
-<p><strong>Technologies:</strong> Django, Python, Web Framework, Authentication, Database Security</p>
-<p>
-A working password manager using <strong>Django web framework</strong>. This website allows users to <strong>register, login and logout</strong>. The web app enables users to <strong>add name tags, passwords, and descriptions</strong> visible only to the corresponding users, ensuring secure personal data management.
-</p>
-</div>
-
-<div class="project">
 <h3>GoLang Random Mosaic</h3>
 <p><span class="tag tag-web">Web Development</span></p>
 <p><strong>Technologies:</strong> Go, HTML, CSS, Web Development, Dynamic UI, Concurrency</p>
 <p>
 A <strong>Go-hosted</strong> mosaic webpage utilizing <strong>Go's concurrency</strong> model for request handling alongside <strong>HTML and CSS frontend</strong>. Generates a 6×6 grid of random shapes, colors, and characters with dynamic re-randomization and responsive sizing. Demonstrates Go's <code>net/http</code> <strong>concurrent request serving</strong> and <strong>template rendering pipeline</strong>.
+</p>
+</div>
+
+<div class="project">
+<h3>Password Manager</h3>
+<p><span class="tag tag-web">Web Development</span></p>
+<p><strong>Technologies:</strong> Django, Python, Web Framework, Authentication, Database Security</p>
+<p>
+A working password manager using <strong>Django web framework</strong>. This website allows users to <strong>register, login and logout</strong>. The web app enables users to <strong>add name tags, passwords, and descriptions</strong> visible only to the corresponding users, ensuring secure personal data management.
 </p>
 </div>
 
@@ -363,8 +530,8 @@ Two-player Tic Tac Toe implemented in <strong>C++</strong> with <strong>object-o
 </p>
 </div>
 
-</div>
-
+</div> -->
+<!-- 
 <style>
 .skills-header {
   border: 1px solid var(--global-border-color, #d0d7de);
@@ -458,7 +625,7 @@ html[data-theme="dark"] .skill-vals {
   font-size: 0.75rem;
   font-weight: 600;
   padding: 0.25rem 0.6rem;
-  border-radius: 12px;                /* pill shape — less boxy */
+  border-radius: 12px;                /* pill shape - less boxy */
   margin-right: 0.5rem;
   margin-bottom: 0.4rem;
   letter-spacing: 0.02em;
@@ -472,7 +639,7 @@ html[data-theme="dark"] .skill-vals {
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
-/* Cleaner / more modern colors — not too bright/neon */
+/* Cleaner / more modern colors - not too bright/neon */
 .tag-research   { background-color: #0d6efd; }  /* Bootstrap blue */
 .tag-published  { background-color: #198754; }  /* success green */
 .tag-systems    { background-color: #6f42c1; }  /* purple */
@@ -480,7 +647,7 @@ html[data-theme="dark"] .skill-vals {
 .tag-software   { background-color: #017890; }  /* cyan */
 .tag-game       { background-color: #dc3545; }  /* red */
 .tag-web        { background-color: #198754; }  /* green again or #6610f2 purple */
-</style>
+</style> -->
   </div>
 </div>
 
@@ -512,7 +679,7 @@ html[data-theme="dark"] .skill-vals {
 
 <div class="page__footer-copyright">
   &copy; 2026 Vadim Biryukov, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated 2026-03-02
+  Site last updated 2026-03-03
 </div>
 
       </footer>
