@@ -17,11 +17,11 @@ excerpt: "Full-stack development across web and mobile platforms (Android, iOS) 
 ---
 
 ## Contributions
-- Participated in development of Android and iOS mobile applications based on customer requirements.
-- Performed application debugging and testing, including development of automated tests using Selenium.
-- Prepared technical documentation describing system functionality and testing procedures.
-- Contributed to system integration within an existing proprietary architecture.
-- Developed automation scripts using Google Apps Script.
-- Conducted code optimization and performance improvements.
-- Developed web application using the Laravel PHP framework.
-- Worked with proprietary pre-market software systems in a confidential development environment.
+-	Participated in Android and iOS mobile application development based of customer requirements.
+-	Performed comprehensive application debugging and testing and development of automated testing framework using Selenium.
+-	Written technical documentation describing system functionality and testing procedures.
+-	Integrated system functionality within an existing proprietary architecture.
+-	Developed and optimized automation scripts using Google Apps Script.
+-	Debugging of issues reported by customer in web applications written in Laravel/PHP framework.
+-	Worked with pre-market software application with in-depth debugging procedure.
+
