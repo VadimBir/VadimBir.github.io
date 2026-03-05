@@ -18,12 +18,9 @@ excerpt: "Graduate Teaching Assistant for graduate Computer Science courses. Man
 
 ## Responsibilities
 
-- Conducted weekly office hours providing one-on-one mentoring on graduate-level coursework and assignments
-- Managed course infrastructure on Blackboard: content deployment, assignment configuration, and grade maintenance
-- Collaborated with faculty to identify at-risk students; initiated targeted outreach resulting in improved retention and course completion
-- Monitored and triaged discussion boards, ensuring timely resolution of technical questions
-- Graded assignments and exams across multiple graduate courses with consistent rubric application
-- Established a student Discord community channel for peer collaboration and asynchronous Q&A, extending support beyond scheduled office hours
+-	Performed grading of graduate-level course work, including assignments, projects, and discussion boards.
+-	Held office hours to assist students with coursework and supported course instructors by assisting managing content on Blackboard Original and Blackboard Ultra.
+-	Monitored discussion boards for student questions identifying at-risk students providing targeted and collaboration with instructors. 
 
 
 *This position directly preceded appointment as full [Computer Science Instructor](/positions/lewis-university-instructor) at Lewis University (August 2022).*
