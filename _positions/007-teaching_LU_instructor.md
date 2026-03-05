@@ -17,7 +17,7 @@ excerpt: "10 courses across undergraduate and graduate levels. 3 years concurren
 
 ## Overview
 
-Full-Time teaching appointment held concurrently with doctoral research at Illinois Institute of Technology. Since Fall 2022, delivered 38 course sections totaling 114 credit hours from introductory programming through graduate-level operating systems.
+Full-Time teaching appointment held concurrently with doctoral research at Illinois Institute of Technology. Since Fall 2022, delivery of 38 course sections (114 credit hours) ranging from introductory programming through graduace level course.
 
 ## Courses Taught
 
@@ -41,7 +41,7 @@ Full-Time teaching appointment held concurrently with doctoral research at Illin
 
 - Redesigned **CPSC 30000 Computer Organization** curriculum from the ground up, integrating **[ChampSim](https://github.com/ChampSim/ChampSim)** — a research-grade CPU simulator used in doctoral work — as a student-facing educational tool bridging active research with undergraduate instruction
 - Organized the **ACCA Programming Challenge** (Feb 2024) — authored all three competitive problem sets across 3 open-source projects
-- Published research ([ICCAD 2024](/publication/2024-02-17-iccad-paper)) on IoT-based automated student assessment with Lewis University faculty, contributing CNN-based spatial localization for actor tracking in smart learning environments
+-	Material reinforcement using real-world examples, visual-based assignments and enhanced course material via integration of doctoral research expertise into course curricula showcasing applied CPU simulation tools, and algorithm analysis techniques across Computer Organization, Operating Systems, and Algorithms courses.
 
 ---
 
