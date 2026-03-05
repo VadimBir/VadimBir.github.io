@@ -17,10 +17,11 @@ excerpt: "Full-stack development across web and mobile platforms (Android, iOS) 
 ---
 
 ## Contributions
-
-- Developed cross-platform web and mobile applications using the **Laravel PHP framework** targeting Android and iOS deployments
-- Delivered feature enhancements and integrations into production web systems serving existing client base
-- Contributed to **greenfield product development** for pre-market software, from initial implementation through release preparation
-- Designed and implemented automated testing infrastructure using **Selenium** (Python, Java), establishing regression coverage for ongoing development
-- Engaged with clients to refine system requirements and translate business needs into technical specifications
-- Participated in agile team workflows including sprint planning, code reviews, and cross-functional coordination
+- Participated in development of Android and iOS mobile applications based on customer requirements.
+- Performed application debugging and testing, including development of automated tests using Selenium.
+- Prepared technical documentation describing system functionality and testing procedures.
+- Contributed to system integration within an existing proprietary architecture.
+- Developed automation scripts using Google Apps Script.
+- Conducted code optimization and performance improvements.
+- Developed web application using the Laravel PHP framework.
+- Worked with proprietary pre-market software systems in a confidential development environment.
